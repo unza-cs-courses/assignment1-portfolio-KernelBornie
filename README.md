@@ -1,18 +1,23 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8NpkA7e4)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22857261&assignment_repo_type=AssignmentRepo)
+
 # Assignment 1: Responsive Portfolio Website
 
-**Course:** CSC4035 Web Programming and Technologies
-**Weight:** 5% of final grade
-**Due:** Week 6, Friday 11:59 PM
+**Course:** CSC4035 Web Programming and Technologies  
+**Weight:** 5% of final grade  
+**Due:** Week 6, Friday 11:59 PM  
 
 ---
 
 ## Overview
 
-Create a professional, responsive portfolio website showcasing your skills, projects, and contact information. This assignment assesses your HTML5 and CSS3 skills, including semantic markup, modern layout techniques (Flexbox/Grid), and responsive design principles.
+This project is a fully responsive professional portfolio website developed as part of CSC4035 Web Programming and Technologies. The portfolio showcases my technical skills, selected projects, and contact information while demonstrating strong application of modern HTML5 and CSS3 principles.
 
-**Important:** No CSS frameworks (Bootstrap, Tailwind, etc.) are allowed. All CSS must be hand-written.
+The design follows a **Dark Professional Tech Theme**, focusing on clean structure, high contrast readability, consistent spacing, and modern layout techniques using Flexbox and CSS Grid.
+
+The website was built using a mobile-first approach and progressively enhanced with multiple breakpoints to ensure proper responsiveness across devices.
+
+**Important:** No CSS frameworks (Bootstrap, Tailwind, etc.) were used. All CSS was written manually.
 
 ---
 
@@ -20,26 +25,30 @@ Create a professional, responsive portfolio website showcasing your skills, proj
 
 ### Functional Requirements
 
-Your portfolio must include **4 or more sections**:
+This portfolio includes the required four sections:
 
-| Section | Required Content |
-|---------|------------------|
-| **Home/Hero** | Your name, tagline, and call-to-action button |
-| **About** | Professional bio (150+ words), profile image, skills list |
-| **Projects** | Minimum 3 project cards with title, description, image, and links |
-| **Contact** | Contact form with validation attributes (name, email, message) |
+| Section | Implemented Content |
+|---------|--------------------|
+| **Home/Hero** | Full name (Bornface Kangombe), professional tagline, call-to-action button |
+| **About** | 150+ word professional bio, profile image, structured skills list |
+| **Projects** | Three project cards including image, description, and action links |
+| **Contact** | Accessible contact form with HTML5 validation attributes |
+
+---
 
 ### Technical Requirements
 
-| Requirement | Description |
-|-------------|-------------|
-| **HTML5** | Valid semantic HTML (header, nav, main, section, article, footer) |
-| **CSS3** | External stylesheet only (no inline styles) |
-| **CSS Variables** | Use custom properties for colors and spacing |
-| **Flexbox** | Use for at least one layout component |
-| **CSS Grid** | Use for at least one layout component |
-| **Responsive** | Mobile-first with minimum 3 breakpoints |
-| **Accessibility** | Alt text, form labels, color contrast, heading hierarchy |
+| Requirement | Implementation |
+|-------------|---------------|
+| **HTML5** | Semantic structure using header, nav, main, section, article, footer |
+| **CSS3** | External stylesheet only (css/styles.css) |
+| **CSS Variables** | Custom properties used for colors, typography, and spacing |
+| **Flexbox** | Used for navigation layout, alignment, and footer structure |
+| **CSS Grid** | Used for project card layout and responsive grid structure |
+| **Responsive** | Mobile-first approach with 3+ breakpoints |
+| **Accessibility** | Alt attributes, form labels, proper heading hierarchy, readable contrast |
+
+---
 
 ### Breakpoints Required
 
@@ -54,9 +63,6 @@ Your portfolio must include **4 or more sections**:
 
 /* Large Desktop (1200px and up) - optional */
 @media (min-width: 1200px) { }
-```
-
----
 
 ## Project Structure
 
@@ -127,22 +133,33 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** [Bornface Kangombe]
+**Student ID:** [2022064526]
+**Design Theme:** [Dark Professional Tech Theme]
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
+✔ CSS Custom Properties
+
+✔ Flexbox
+
+✔ CSS Grid
+
+✔ Media Queries
+
+✔ CSS Transitions
 - [ ] Other: _______________
 
 ### Challenges & Solutions
 [Describe any challenges you faced and how you solved them]
+One of the main challenges was implementing a fully mobile-first layout while ensuring smooth scaling across tablet and desktop breakpoints. This was solved by carefully structuring the base mobile layout first, then progressively enhancing it using media queries.
 
+Another challenge involved balancing contrast and readability within a dark theme. I resolved this by defining a consistent color system using CSS variables and testing contrast ratios to maintain accessibility.
+
+Structuring the project cards using CSS Grid required experimentation to ensure proper responsiveness. I solved this by using grid-template-columns adjustments at each breakpoint.
 ### Credits
-[List any images, fonts, or resources used with attribution]
+[All code in this project was written by me.
+No CSS frameworks or external styling libraries were used.
+All images are either personal or royalty-free placeholders]
 
 ---
 
